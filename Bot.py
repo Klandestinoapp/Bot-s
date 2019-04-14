@@ -10,12 +10,12 @@ from pymongo.errors import ConnectionFailure
 import time # Importa Time
 import urllib3 #Importa urllib3
 #Essa parte é necessária para comunicar com a API do telegram na vesão gratuita no pythonanyhere
-'''proxy_url = "http://proxy.server:3128" #Endereço do proxy à ser utilizado
+proxy_url = "http://proxy.server:3128" #Endereço do proxy à ser utilizado
 telepot.api._pools = {
     'default': urllib3.ProxyManager(proxy_url=proxy_url, num_pools=3, maxsize=10, retries=False, timeout=30),
 }
 telepot.api._onetime_pool_spec = (urllib3.ProxyManager, dict(proxy_url=proxy_url, num_pools=1, maxsize=1, retries=False, timeout=30))
-#Fim do código necessário para comunicar-se com a API do telegram na versão gratuita do pythonanywhere'''
+#Fim do código necessário para comunicar-se com a API do telegram na versão gratuita do pythonanywhere
 bot = telepot.Bot('713527824:AAH3YsRQjTpWeuh93O8AWv7oX2aCJ3JXn0Y')
 step=0
 controlador={}
