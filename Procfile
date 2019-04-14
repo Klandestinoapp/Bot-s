@@ -1,1 +1,1 @@
-web: python bot.py runserver http://proxy.server:3128
+worker: python3 Bot.py 
