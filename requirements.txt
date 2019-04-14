@@ -1,5 +1,5 @@
 telepot
 pymongo
 datetime
-time
+dnspython
 urllib3
