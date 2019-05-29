@@ -8,7 +8,7 @@ from pymongo import MongoClient
 from pymongo.errors import ConnectionFailure
 
 import time # Importa Time
-import urllib3 #Importa urllib3
+'''import urllib3 #Importa urllib3'''
 #Essa parte é necessária para comunicar com a API do telegram na vesão gratuita no pythonanyhere
 '''proxy_url = "http://proxy.server:3128" #Endereço do proxy à ser utilizado
 telepot.api._pools = {
