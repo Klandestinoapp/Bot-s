@@ -1,0 +1,1 @@
+Script para criação de Bot-s para WhatsApp utilizando o Selenium.
